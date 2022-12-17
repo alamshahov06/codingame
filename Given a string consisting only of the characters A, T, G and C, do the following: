@@ -1,0 +1,8 @@
+- double the A-s
+- triple the T-s
+- remove the G-s
+- leave the C-s as is
+_______________________________
+import re
+w=re.sub
+print(w('G','',w('T','TTT',w('A','AA',input()))))
