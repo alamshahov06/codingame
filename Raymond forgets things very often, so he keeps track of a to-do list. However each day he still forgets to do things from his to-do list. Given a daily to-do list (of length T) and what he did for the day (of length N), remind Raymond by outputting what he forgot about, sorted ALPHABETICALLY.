@@ -1,0 +1,9 @@
+import sys
+import math
+t = int(input())
+todo = [input() for i in range(t)]
+n = int(input())
+did = [input() for i in range(n)]
+for i in sorted(todo):
+    if i not in did:
+        print(i)
