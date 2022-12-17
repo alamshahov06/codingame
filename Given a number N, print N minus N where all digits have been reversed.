@@ -1,0 +1,2 @@
+n = int(input())
+print(int(str(n)) - int(str(n)[::-1]) )
