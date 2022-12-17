@@ -1,0 +1,20 @@
+import sys
+import math
+call_1, call_2 = input().split()
+if call_1 == call_2:
+print('DRAW')
+elif call_1 == 'ROCK':
+if call_2 == 'PAPER':
+print('PLAYER2')
+else:
+print('PLAYER1')
+elif call_1 == 'PAPER':
+if call_2 == 'SCISSORS':
+print('PLAYER2')
+else:
+print('PLAYER1')
+elif call_1 == 'SCISSORS':
+if call_2 == 'ROCK':
+print('PLAYER2')
+else:
+print('PLAYER1')
